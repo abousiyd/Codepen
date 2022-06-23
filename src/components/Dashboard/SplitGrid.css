@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-rows: 50% 1% 50%;
+    grid-template-columns: 50% 0.5% 50%;
+    height: 100vh;
+}
+
+.gutter-col {
+    grid-row: 1/-1;
+    cursor: col-resize;
+}
+
+.gutter-col-1 {
+    grid-column: 1;
+}
+
+.gutter-row {
+    grid-column: 1/-1;
+    cursor: row-resize;
+}
+
+.gutter-row-1 {
+    grid-row: 1;
+}
+
+.vertical-gutter {
+    grid-area: 1 / 2 / 4 / 2;
+    cursor: row-resize;
+    /* border: solid 1px #fff; */
+}
+
+.horizontal-gutter {
+    grid-area: 2 / 1 / 2 / 4;
+    cursor: col-resize;
+    /* border: solid 1px #fff; */
+}
