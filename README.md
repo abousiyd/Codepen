@@ -10,7 +10,7 @@ It also allows you to download the code written in a zip format, and customize t
 
 I'm still working in the app, adding new features and optimizations. I would love you to take a look on the app and any feedback is appreciate it!
 
-![Codepen preview](./doc/img/preview-demo.png)
+![Codepen preview](./doc/img/preview.png)
 
 ## Setup
 
